@@ -1,45 +1,78 @@
 <!DOCTYPE html>
     <head>
         <title>Portfolio</title>
+        <link href="style.css" rel="stylesheet">
     </head>
     <body>
         <main>
             <article>
                 <header>
-                    <h1>Sandy Camilo</h1>
-                </header>                
-                <section>
-                    <hgroup>
-                        <h2>MS Student</h2>
-                        <h3>Junior, 1st year</h3>
-                    </hgroup>
+                    <h1 class="title">food<span>journal</span></h1>
+                    <div class= "navbar-links">
+                        <div class="dropdown">
+                            <button class="dropbutton">BROWSE</button>
+                            <div class="dropdown-content">
+                                <a href="#">Breakfast</a><br>
+                                <a href="#">Desserts</a><br>
+                                <a href="#">Dinner</a><br>
+                                <a href="#">Drinks</a><br>
+                                <a href="#">Snacks</a>
+                            </div>
+                            <button class="create-profile">SIGN IN</button>
+                        </div>
+                    </div>
+                </header> 
+                <section class= "drink-title">
+                    <h1>How to Make<i>Agua de Jamaica</i> Drink (Hibiscus Iced Tea):</h1>
+                    <p>It’s really quite simple to prepare. Follow these steps!</p>        
+                </section>    
+                <section class="recipe-photos">
+                    <img src="static/Dried-Hibiscus-Flowers.jpg" width="400" height="auto" alt="dried flowers">
+                    <img src="static/Hibiscus-Concentrate.jpg" width="400" height="auto" alt="dried flowers">
+                    <img src="static/Agua-de-Jamaica-Glass.jpg" width="400" height="auto" alt="dried flowers">
                 </section>
-                <section>
-                    <h4>Skills:</h4>
+                <section class="ingredients">
+                    <h2>Ingredients:</h2>
                     <ul>
-                        <li>Python</li>
-                        <li>Django</li>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JS</li>
+                        <li>2 cups dried hibiscus flowers</li>
+                        <li>2 quarts water</li>
+                        <li>1/2 cup sugar per pitcher of jamaica</li>      
                     </ul>
                 </section>
+                <section class="steps">
+                    <h2>Instructions:</h2>
+                    <ul>
+                    <i>HIBISCUS CONCENTRATE</i>
+                    <li>Put 2 quarts of water in a pot</li>
+                    <li>Add 2 cups of dried hibiscus flowers to the water</li>
+                    <li>Bring to a boil</li>
+                    <li>As soon as the water boils reduce the heat to low and simmer for 10 minutes</li>
+                    <li>After 10 minutes turn off the heat and allow the hibiscus concentrate to cool</li><br>
+                    <i>PITCHER OF JAMAICA</i>
+                    <li>Put 1/3 of the concentrate in a half gallon pitcher and add the sugar</li>
+                    <li>Fill the pitcher with cool water and stir vigorously to dissolve the water</li>
+                    <li>Serve chilled or over ice</li>
+                    </ul>
+                </section>
+                <section class="nutrition">
+                        <h2>Nutrition</h2>
+                        <p>
+                        Serving: 11ozs. | Calories: 129kcal | 
+                        Carbohydrates: 33g | Sodium: 5mg | Sugar: 33g
+                        </p>
+                </section>
+                <section class="comments">
+                    <h2>Leave us a comment:</h2>
+                    <input type="text" placeholder="Name"><br>
+                    <input type="text" placeholder="E-mail address"><br>
+                    <input type="text" placeholder="How did you enjoy it?"><br><br>
+                    <input type="submit">
+                </section>
                 <footer>
-                    <hgroup>
-                        <h5>Contact Information:</h5>
-                        <h6>San Francisco, CA</h6>
-                        <h6>sndcamilo@gmail.com</h6>
-                    </hgroup>
-                    <nav>
-                        <a href= "#"> Connect on LinkdIn</a>
-                    </nav>
-                    <section>
-                        <p>Send me a message:</p>
-                        <input type="text" placeholder="First Name and Last Name"><br>
-                        <input type="text" placeholder="E-mail address"><br>
-                        <input type="text" placeholder="Write your message here!"><br><br>
-                        <input type="submit">
-                    </section>
+                    <p><a href="#">About Us</a>
+                    <a href="#">Contact Us</a>
+                    <a href="#">Site Map</a>
+                    <a href="#">Newsletters</a></p>
                 </footer>
             </article>
         </main>
